@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background: url("promo.jpg") no-repeat center;
+    background-size: cover;
+    width: auto;
+    height: 1061px;
+}
+
+
+.container-1 {
+    padding: 24px;
+}
+
+.buttons-header {
+    margin-top: 50px;  
+}
+
+.navbar-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    transition: all ease 0.4s;
+    color: #4f4d6a;
+}
+
+.nav-link:hover {
+    color: purple;
+}
+
+
+hr.white-line {
+    border: 1px solid #fff;
+}
+
+
+
+.we-are {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4f4d6a;
+}
+
+.studio-banx {
+    font-size: 125px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4f4d6a;
+}
+
+.text-we-are {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4f4d6a;
+}
+
+
+.our-worx {
+    background-color: #ebebeb;
+    padding: 65px;
+}
+
+.small-title {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #4f4d6a;
+}
+
+.big-title {
+    font-size: 72px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4f4d6a;
+}
+
+.image {
+    border-radius: 50%;
+    border: 20px solid #fff;
+}
+
+.heading-card {
+    font-size: 22px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4f4d6a;
+}
+
+.text-card {
+    font-size: 12px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 23px;
+    color: #4f4d6a;
+    max-width: 230px;
+}
+
+
+
+
+
+.btn-banx-1 {
+    background-image: linear-gradient(180deg, #6d6b89, #504e6b);
+    color: #fff;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 60px;
+    padding: 8px 60px 8px;
+    margin-right: 10px;
+    border: 1.5px solid #4f4d6a;
+}
+
+.btn-banx-2 {
+    background-image: linear-gradient(180deg, #cdbec7, #9e8596);
+    color: #fff;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 60px;
+    padding: 8px 60px 8px;
+    margin-left: 10px;
+    border: 1.5px solid #937d91;
+}
+
+
+.wh-ma-awe {
+    background-color: #fff;
+    padding: 65px;
+}
+
+.heading-what {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4f4d6a;
+}
+
+.text-what {
+    font-size: 12px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 23px;
+    color: #4f4d6a;
+    max-width: 300px;
+}
+
+.btn-what {
+    font-size: 12px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #4f4d6a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 1px 20px 1px;
+    border: 1px;
+}
+
+
+.btn-what:hover {
+    transition: all ease 0.4s;
+    background-color: purple;
+}
+
+
+
+.footer {
+    background-color: #505050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    line-height: 24px;
+    padding: 65px;
+}
+
+.footer-heading {
+    font-size: 24px;
+    color: #fff;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-text-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    line-height: 24px;
+    max-width: 570px;
+}
+
+.footer-text-2 {
+    max-width: 460px;
+}
+
+/* Mobile adaptation */
+@media (max-width: 768px) {
+
+    
+    /* Navbar */
+    .navbar-nav {
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .nav-item {
+      text-align: center;
+      margin: 10px;
+    }
+
+    .navbar-brand {
+      margin-right: 0;
+    }
+
+    /* Header */
+    .we-are,
+    .studio-banx,
+    .text-we-are,
+    .buttons-header {
+      text-align: center;
+    }
+
+    .buttons-header {
+      margin-bottom: 20px;
+    }
+
+    /* Our worx */
+    .small-title,
+    .big-title,
+    .cards {
+      text-align: center;
+    }
+
+    .cards {
+      flex-wrap: wrap;
+    }
+
+    .card1 {
+      margin: 20px;
+    }
+
+    /* What makes us so awesome */
+    .cards-what {
+      flex-wrap: wrap;
+    }
+
+  }
+
+
+
+
+
+
+
